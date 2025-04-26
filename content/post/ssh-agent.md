@@ -5,7 +5,7 @@ draft = false
 tags = ["ssh"]
 +++
 
-Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。
+GitHub に push する際、ssh-agent の使い方で躓いたのでメモがわりに。
 
 <!--more-->
 

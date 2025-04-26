@@ -6,21 +6,28 @@
     <description>Recent content in Posts on 1% Engineer</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 26 Apr 2025 20:34:08 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 26 Oct 2023 12:56:24 +0900</lastBuildDate>
     <atom:link href="https://itsukiarakaki268.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>First Post</title>
-      <link>https://itsukiarakaki268.github.io/post/first-post/</link>
-      <pubDate>Sat, 26 Apr 2025 20:34:08 +0900</pubDate>
-      <guid>https://itsukiarakaki268.github.io/post/first-post/</guid>
-      <description>&lt;p&gt;このブログについて。&lt;/p&gt;</description>
+      <title>自宅サーバーをsshでリモートアクセスできるようにした話</title>
+      <link>https://itsukiarakaki268.github.io/post/server-ssh/</link>
+      <pubDate>Thu, 26 Oct 2023 12:56:24 +0900</pubDate>
+      <guid>https://itsukiarakaki268.github.io/post/server-ssh/</guid>
+      <description>&lt;p&gt;自宅サーバーを遠隔操作！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ssh-agentの使い方</title>
       <link>https://itsukiarakaki268.github.io/post/ssh-agent/</link>
       <pubDate>Thu, 26 Oct 2023 12:32:45 +0900</pubDate>
       <guid>https://itsukiarakaki268.github.io/post/ssh-agent/</guid>
-      <description>&lt;p&gt;Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。&lt;/p&gt;</description>
+      <description>&lt;p&gt;GitHub に push する際、ssh-agent の使い方で躓いたのでメモがわりに。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>このブログについて</title>
+      <link>https://itsukiarakaki268.github.io/post/first-post/</link>
+      <pubDate>Wed, 25 Oct 2023 20:34:08 +0900</pubDate>
+      <guid>https://itsukiarakaki268.github.io/post/first-post/</guid>
+      <description>&lt;p&gt;はじめの一歩&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
