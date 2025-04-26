@@ -12,8 +12,9 @@
  
 
 
-      <title>Posts - </title>
+      <title>忘れやすいGitコマンド集 - </title>
 
+  <meta name="description" content="個人的に忘れやすい、かゆいところに手が届く Git コマンド集">
   <meta name="author" content="Itsuki Arakaki"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -34,14 +35,65 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/itsukiarakaki268.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/itsukiarakaki268.github.io\/post\/git-command\/",
+          "name": "忘れやすい gitコマンド集"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Itsuki Arakaki"
+  },
+  "headline": "忘れやすいGitコマンド集",
+  "description" : "個人的に忘れやすい、かゆいところに手が届く Git コマンド集\n",
+  "inLanguage" : "en",
+  "wordCount":  29 ,
+  "datePublished" : "2025-04-27T00:50:33\u002b09:00",
+  "dateModified" : "2025-04-27T00:50:33\u002b09:00",
+  "image" : "https:\/\/itsukiarakaki268.github.io\/img\/avatar-icon.png",
+  "keywords" : [ "" ],
+  "mainEntityOfPage" : "https:\/\/itsukiarakaki268.github.io\/post\/git-command\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/itsukiarakaki268.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/itsukiarakaki268.github.io\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="Posts" />
+
+<meta property="og:title" content="忘れやすいGitコマンド集" />
+<meta property="og:description" content="個人的に忘れやすい、かゆいところに手が届く Git コマンド集">
 <meta property="og:image" content="https://itsukiarakaki268.github.io/img/avatar-icon.png" />
-<meta property="og:url" content="https://itsukiarakaki268.github.io/post/" />
+<meta property="og:url" content="https://itsukiarakaki268.github.io/post/git-command/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="1% Engineer" />
 
-  <meta name="twitter:title" content="Posts" />
+  <meta name="twitter:title" content="忘れやすいGitコマンド集" />
+  <meta name="twitter:description" content="個人的に忘れやすい、かゆいところに手が届く Git コマンド集">
   <meta name="twitter:image" content="https://itsukiarakaki268.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@username" />
@@ -198,7 +250,7 @@
           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-heading">
               
-                <h1>Posts</h1>
+                <h1>忘れやすいGitコマンド集</h1>
               
               
               
@@ -209,10 +261,10 @@
   <i class="fas fa-calendar"></i>&nbsp;Posted on April 27, 2025
   
   
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;0&nbsp;minutes
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;0&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;29&nbsp;words
   
   
     
@@ -234,205 +286,104 @@
 
 
     
-  <div class="container" role="main">
-    <div class="row">
-      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        
-        <div class="posts-list">
-          
-            <article class="post-preview">
-    <a href="https://itsukiarakaki268.github.io/post/git-command/">
-        <h2 class="post-title">忘れやすいGitコマンド集</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on April 27, 2025
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;29&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Itsuki Arakaki
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
         <p>個人的に忘れやすい、かゆいところに手が届く Git コマンド集</p>
-        <a href="https://itsukiarakaki268.github.io/post/git-command/" class="post-read-more">[Read More]</a>
+<h2 id="リモートリポジトリの-url-を確認">リモートリポジトリの URL を確認</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git remote -v
+</span></span></code></pre></div><h2 id="リモートリポジトリの-url-を変更する">リモートリポジトリの URL を変更する</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git remote set-url origin &lt;変更後のURL&gt;
+</span></span></code></pre></div><h2 id="ブランチ作成">ブランチ作成</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git branch &lt;ブランチ名&gt;
+</span></span></code></pre></div><h2 id="ブランチ切り替え">ブランチ切り替え</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ git checkout &lt;ブランチ名&gt;
+</span></span></code></pre></div>
+
         
-    </div>
 
-    
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
 
-</article>
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f&amp;text=%e5%bf%98%e3%82%8c%e3%82%84%e3%81%99%e3%81%84Git%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e9%9b%86&amp;via=username" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f&amp;title=%e5%bf%98%e3%82%8c%e3%82%84%e3%81%99%e3%81%84Git%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e9%9b%86" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f&amp;title=%e5%bf%98%e3%82%8c%e3%82%84%e3%81%99%e3%81%84Git%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e9%9b%86" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f&amp;title=%e5%bf%98%e3%82%8c%e3%82%84%e3%81%99%e3%81%84Git%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e9%9b%86" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fgit-command%2f&amp;description=%e5%bf%98%e3%82%8c%e3%82%84%e3%81%99%e3%81%84Git%e3%82%b3%e3%83%9e%e3%83%b3%e3%83%89%e9%9b%86" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
           
-            <article class="post-preview">
-    <a href="https://itsukiarakaki268.github.io/post/server-ssh/">
-        <h2 class="post-title">自宅サーバーをsshでリモートアクセスできるようにした話</h2>
-        
-        
-        
-    </a>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 26, 2023
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;106&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Itsuki Arakaki
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>自宅サーバーを遠隔操作！</p>
-        <a href="https://itsukiarakaki268.github.io/post/server-ssh/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-       
-       <a href="https://itsukiarakaki268.github.io/tags/%E3%82%B5%E3%83%BC%E3%83%90%E3%83%BC/">サーバー</a>&nbsp;
-        
-       
-       <a href="https://itsukiarakaki268.github.io/tags/ssh/">ssh</a>&nbsp;
-         
-    </div>
-    
-
-</article>
           
-            <article class="post-preview">
-    <a href="https://itsukiarakaki268.github.io/post/ssh-agent/">
-        <h2 class="post-title">ssh-agentの使い方</h2>
         
-        
-        
-    </a>
+      </article>
 
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 26, 2023
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;32&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Itsuki Arakaki
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>GitHub に push する際、ssh-agent の使い方で躓いたのでメモがわりに。</p>
-        <a href="https://itsukiarakaki268.github.io/post/ssh-agent/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-       
-       <a href="https://itsukiarakaki268.github.io/tags/ssh/">ssh</a>&nbsp;
-         
-    </div>
-    
-
-</article>
+      
+        <ul class="pager blog-pager">
           
-            <article class="post-preview">
-    <a href="https://itsukiarakaki268.github.io/post/first-post/">
-        <h2 class="post-title">このブログについて</h2>
-        
-        
-        
-    </a>
-
-    <p class="post-meta">
-        <span class="post-meta">
-  
-  
-  <i class="fas fa-calendar"></i>&nbsp;Posted on October 25, 2023
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
-  
-  
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;5&nbsp;words
-  
-  
-    
-      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Itsuki Arakaki
-    
-  
-  
-</span>
-
-
-    </p>
-    <div class="post-entry">
-        
-        <p>はじめの一歩</p>
-        <a href="https://itsukiarakaki268.github.io/post/first-post/" class="post-read-more">[Read More]</a>
-        
-    </div>
-
-    
-    <div class="blog-tags">
-        
-       
-       <a href="https://itsukiarakaki268.github.io/tags/%E8%87%AA%E5%B7%B1%E7%B4%B9%E4%BB%8B/">自己紹介</a>&nbsp;
-         
-    </div>
-    
-
-</article>
+            <li class="previous">
+              <a href="https://itsukiarakaki268.github.io/post/server-ssh/" data-toggle="tooltip" data-placement="top" title="自宅サーバーをsshでリモートアクセスできるようにした話">&larr; Previous Post</a>
+            </li>
           
-        </div>
-        
-      </div>
+          
+        </ul>
+      
+
+
+      
+
     </div>
   </div>
+</div>
 
       <footer>
   <div class="container">
@@ -472,15 +423,6 @@
                 </a>
               </li>
           
-          
-          <li>
-            <a href="/post/index.xml" title="RSS">
-              <span class="fa-stack fa-lg">
-                <i class="fas fa-circle fa-stack-2x"></i>
-                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-              </span>
-            </a>
-          </li>
           
           
         </ul>
