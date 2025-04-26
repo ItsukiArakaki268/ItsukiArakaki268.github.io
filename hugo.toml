@@ -1,6 +1,6 @@
 publishDir = "docs"
 
-baseurl = "https://username.github.io"
+baseurl = "https://itsukiarakaki268.github.io/"
 DefaultContentLanguage = "en"
 title = "Beautiful Hugo"
 # Using theme as git submodule
