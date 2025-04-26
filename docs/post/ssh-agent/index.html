@@ -12,8 +12,9 @@
  
 
 
-      <title>404 Page not found - </title>
+      <title>ssh-agentの使い方 - </title>
 
+  <meta name="description" content="Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。">
   <meta name="author" content="Itsuki Arakaki"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -34,14 +35,65 @@
   
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/itsukiarakaki268.github.io\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/itsukiarakaki268.github.io\/post\/ssh-agent\/",
+          "name": "SSH agentの使い方"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Itsuki Arakaki"
+  },
+  "headline": "ssh-agentの使い方",
+  "description" : "Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。\n",
+  "inLanguage" : "en",
+  "wordCount":  32 ,
+  "datePublished" : "2023-10-26T12:32:45\u002b09:00",
+  "dateModified" : "2023-10-26T12:32:45\u002b09:00",
+  "image" : "https:\/\/itsukiarakaki268.github.io\/img\/avatar-icon.png",
+  "keywords" : [ "ssh" ],
+  "mainEntityOfPage" : "https:\/\/itsukiarakaki268.github.io\/post\/ssh-agent\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/itsukiarakaki268.github.io\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/itsukiarakaki268.github.io\/img\/avatar-icon.png",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
 
-<meta property="og:title" content="404 Page not found" />
+
+<meta property="og:title" content="ssh-agentの使い方" />
+<meta property="og:description" content="Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。">
 <meta property="og:image" content="https://itsukiarakaki268.github.io/img/avatar-icon.png" />
-<meta property="og:url" content="https://itsukiarakaki268.github.io/404.html" />
+<meta property="og:url" content="https://itsukiarakaki268.github.io/post/ssh-agent/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="1% Engineer" />
 
-  <meta name="twitter:title" content="404 Page not found" />
+  <meta name="twitter:title" content="ssh-agentの使い方" />
+  <meta name="twitter:description" content="Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。">
   <meta name="twitter:image" content="https://itsukiarakaki268.github.io/img/avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@username" />
@@ -131,32 +183,219 @@
 
 
     
-    
-  <div role="main" class="container main-content">
-    <div class="text-center">
-      <h1 class="error-emoji"></h1>
-      <p class="error-text">Whoops, this page doesn&#39;t exist. Move along. (404 error)</p>
-    </div>
-  </div>
-<script>
-  var errorEmojiContainer = document.getElementsByClassName('error-emoji')[0];
-  var emojiArray = [
-    '\\(o_o)/', '(o^^)o', '(˚Δ˚)b', '(^-^*)', '(≥o≤)', '(^_^)b', '(·_·)',
-    '(=\'X\'=)', '(>_<)', '(;-;)', '\\(^Д^)/',
-  ];
-  var errorEmoji = emojiArray[Math.floor(Math.random() * emojiArray.length)];
-  errorEmojiContainer.appendChild(document.createTextNode(errorEmoji));
-</script>
 
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
       
-    <div class="page-meta">
-  
-  
-  
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
 </div>
 
 
-  <footer>
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>ssh-agentの使い方</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on October 26, 2023
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
+  
+  
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;32&nbsp;words
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Itsuki Arakaki
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p>Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。</p>
+<h2 id="ssh-agent-の起動">ssh-agent の起動</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ eval `ssh-agent`
+</span></span></code></pre></div><h2 id="ssh-agent-の停止">ssh-agent の停止</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-agent -k
+</span></span></code></pre></div><h2 id="ssh-add-の使い方">ssh-add の使い方</h2>
+<p>秘密鍵を ssh-agent に登録。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-add [秘密鍵のパス]
+</span></span></code></pre></div><p>登録されている鍵の公開鍵一覧を表示。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-add -L
+</span></span></code></pre></div><p>登録されている鍵を削除。</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ ssh-add -d [秘密鍵のパス]
+</span></span></code></pre></div>
+
+        
+          <div class="blog-tags">
+            
+              
+              <a href="https://itsukiarakaki268.github.io/tags/ssh/">ssh</a>&nbsp;
+            
+          </div>
+        
+
+        
+            <hr/>
+            <section id="social-share">
+              <div class="list-inline footer-links">
+                
+
+<div class="share-box" aria-hidden="true">
+    <ul class="share">
+      
+      <li>
+        <a href="//twitter.com/share?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f&amp;text=ssh-agent%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9&amp;via=username" target="_blank" title="Share on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f" target="_blank" title="Share on Facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//reddit.com/submit?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f&amp;title=ssh-agent%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on Reddit">
+          <i class="fab fa-reddit"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.linkedin.com/shareArticle?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f&amp;title=ssh-agent%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.stumbleupon.com/submit?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f&amp;title=ssh-agent%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on StumbleUpon">
+          <i class="fab fa-stumbleupon"></i>
+        </a>
+      </li>
+  
+      
+      <li>
+        <a href="//www.pinterest.com/pin/create/button/?url=https%3a%2f%2fitsukiarakaki268.github.io%2fpost%2fssh-agent%2f&amp;description=ssh-agent%e3%81%ae%e4%bd%bf%e3%81%84%e6%96%b9" target="_blank" title="Share on Pinterest">
+          <i class="fab fa-pinterest"></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+  
+
+              </div>
+            </section>
+        
+
+        
+          
+
+          
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+          
+            <li class="next">
+              <a href="https://itsukiarakaki268.github.io/post/first-post/" data-toggle="tooltip" data-placement="top" title="First Post">Next Post &rarr;</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      <footer>
   <div class="container">
     
     <div class="row">

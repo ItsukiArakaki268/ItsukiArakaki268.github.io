@@ -1,21 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Beautiful Hugo</title>
+    <title>Posts on 1% Engineer</title>
     <link>https://itsukiarakaki268.github.io/post/</link>
-    <description>Recent content in Posts on Beautiful Hugo</description>
+    <description>Recent content in Posts on 1% Engineer</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <managingEditor>youremail@domain.com (Some Person)</managingEditor>
-    <webMaster>youremail@domain.com (Some Person)</webMaster>
     <lastBuildDate>Sat, 26 Apr 2025 20:34:08 +0900</lastBuildDate>
     <atom:link href="https://itsukiarakaki268.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First Post</title>
       <link>https://itsukiarakaki268.github.io/post/first-post/</link>
-      <pubDate>Sat, 26 Apr 2025 20:34:08 +0900</pubDate><author>youremail@domain.com (Some Person)</author>
+      <pubDate>Sat, 26 Apr 2025 20:34:08 +0900</pubDate>
       <guid>https://itsukiarakaki268.github.io/post/first-post/</guid>
-      <description>&lt;h1 id=&#34;はじめの一歩&#34;&gt;はじめの一歩&lt;/h1&gt;&#xA;&lt;p&gt;エンジニアとして学んだことをブログの記事にして、見返せるようにする。&lt;/p&gt;&#xA;&lt;h2 id=&#34;hugo&#34;&gt;Hugo&lt;/h2&gt;&#xA;&lt;p&gt;静的サイトジェネレータ。比較的簡単にサイトの雛形を作成できる。Theme(テーマ)と呼ばれるテンプレートを使用することで、手軽にいい感じのデザインに変更可能。嬉しい。&lt;/p&gt;</description>
+      <description>&lt;p&gt;このブログについて。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>ssh-agentの使い方</title>
+      <link>https://itsukiarakaki268.github.io/post/ssh-agent/</link>
+      <pubDate>Thu, 26 Oct 2023 12:32:45 +0900</pubDate>
+      <guid>https://itsukiarakaki268.github.io/post/ssh-agent/</guid>
+      <description>&lt;p&gt;Github に push する際、ssh-agent の使い方で躓いたのでメモがわりに。&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
