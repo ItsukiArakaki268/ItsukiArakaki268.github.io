@@ -31,3 +31,10 @@ $ git branch <ブランチ名>
 ```
 $ git checkout <ブランチ名>
 ```
+
+## 現在の Git アカウントの確認
+
+```
+$ git config user.name
+$ git config user.email
+```
