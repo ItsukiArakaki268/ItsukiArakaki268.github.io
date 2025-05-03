@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ssh on 1% Engineer</title>
-    <link>https://itsukiarakaki268.github.io/tags/ssh/</link>
+    <link>http://localhost:1313/tags/ssh/</link>
     <description>Recent content in Ssh on 1% Engineer</description>
     <generator>Hugo</generator>
-    <language>ja</language>
+    <language>en</language>
     <lastBuildDate>Thu, 26 Oct 2023 12:56:24 +0900</lastBuildDate>
-    <atom:link href="https://itsukiarakaki268.github.io/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>自宅サーバーをsshでリモートアクセスできるようにした話</title>
-      <link>https://itsukiarakaki268.github.io/post/server-ssh/</link>
+      <link>http://localhost:1313/post/server-ssh/</link>
       <pubDate>Thu, 26 Oct 2023 12:56:24 +0900</pubDate>
-      <guid>https://itsukiarakaki268.github.io/post/server-ssh/</guid>
+      <guid>http://localhost:1313/post/server-ssh/</guid>
       <description>&lt;p&gt;自宅サーバーを遠隔操作！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ssh-agentの使い方</title>
-      <link>https://itsukiarakaki268.github.io/post/ssh-agent/</link>
+      <link>http://localhost:1313/post/ssh-agent/</link>
       <pubDate>Thu, 26 Oct 2023 12:32:45 +0900</pubDate>
-      <guid>https://itsukiarakaki268.github.io/post/ssh-agent/</guid>
+      <guid>http://localhost:1313/post/ssh-agent/</guid>
       <description>&lt;p&gt;GitHub に push する際、ssh-agent の使い方で躓いたのでメモがわりに。&lt;/p&gt;</description>
     </item>
   </channel>

@@ -1,7 +1,7 @@
 publishDir = "docs"
 
 baseurl = "https://itsukiarakaki268.github.io/"
-DefaultContentLanguage = "ja"
+DefaultContentLanguage = "en"
 title = "1% Engineer"
 # Using theme as git submodule
 theme = "beautifulhugo"
