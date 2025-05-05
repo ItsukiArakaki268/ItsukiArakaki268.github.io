@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on 1% Engineer</title>
-    <link>http://localhost:1313/tags/git/</link>
+    <link>https://itsukiarakaki268.github.io/tags/git/</link>
     <description>Recent content in Git on 1% Engineer</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 27 Apr 2025 00:50:33 +0900</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itsukiarakaki268.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>忘れやすいGitコマンド集</title>
-      <link>http://localhost:1313/post/git-command/</link>
+      <link>https://itsukiarakaki268.github.io/post/git-command/</link>
       <pubDate>Sun, 27 Apr 2025 00:50:33 +0900</pubDate>
-      <guid>http://localhost:1313/post/git-command/</guid>
+      <guid>https://itsukiarakaki268.github.io/post/git-command/</guid>
       <description>&lt;p&gt;個人的に忘れやすい、かゆいところに手が届く Git コマンド集&lt;/p&gt;</description>
     </item>
   </channel>
