@@ -1,6 +1,6 @@
 ## Name
 
-1% Engineer ~日々のエンジニアリング備忘録~
+1% Engineer -日々のエンジニアリング備忘録-
 
 ## Overview
 
