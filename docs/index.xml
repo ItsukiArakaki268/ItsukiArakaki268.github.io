@@ -10,10 +10,10 @@
     <atom:link href="https://itsukiarakaki268.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>教授への質問掲示板アプリを作った話</title>
-      <link>https://itsukiarakaki268.github.io/post/20250526/question-bbs/</link>
+      <link>https://itsukiarakaki268.github.io/post/question-bbs/</link>
       <pubDate>Mon, 26 May 2025 14:52:50 +0900</pubDate>
-      <guid>https://itsukiarakaki268.github.io/post/20250526/question-bbs/</guid>
-      <description></description>
+      <guid>https://itsukiarakaki268.github.io/post/question-bbs/</guid>
+      <description>&lt;p&gt;チーム開発記&lt;/p&gt;</description>
     </item>
     <item>
       <title>忘れやすいGitコマンド集</title>
@@ -27,7 +27,7 @@
       <link>https://itsukiarakaki268.github.io/post/server-ssh/</link>
       <pubDate>Thu, 26 Oct 2023 12:56:24 +0900</pubDate>
       <guid>https://itsukiarakaki268.github.io/post/server-ssh/</guid>
-      <description>&lt;p&gt;自宅サーバーを遠隔操作！&lt;/p&gt;</description>
+      <description>&lt;p&gt;リモートアクセスしたい！&lt;/p&gt;</description>
     </item>
     <item>
       <title>ssh-agentの使い方</title>

@@ -14,7 +14,7 @@
 
       <title>自宅サーバーをsshでリモートアクセスできるようにした話 - </title>
 
-  <meta name="description" content="自宅サーバーを遠隔操作！">
+  <meta name="description" content="リモートアクセスしたい！">
   <meta name="author" content="Itsuki Arakaki"/><script type="application/ld+json">
 {
     "@context": "http://schema.org",
@@ -63,9 +63,9 @@
     "name" : "Itsuki Arakaki"
   },
   "headline": "自宅サーバーをsshでリモートアクセスできるようにした話",
-  "description" : "自宅サーバーを遠隔操作！\n",
+  "description" : "リモートアクセスしたい！\n",
   "inLanguage" : "en",
-  "wordCount":  106 ,
+  "wordCount":  107 ,
   "datePublished" : "2023-10-26T12:56:24\u002b09:00",
   "dateModified" : "2023-10-26T12:56:24\u002b09:00",
   "image" : "https:\/\/itsukiarakaki268.github.io\/img\/pengin_avatar-icon.png",
@@ -86,14 +86,14 @@
 
 
 <meta property="og:title" content="自宅サーバーをsshでリモートアクセスできるようにした話" />
-<meta property="og:description" content="自宅サーバーを遠隔操作！">
+<meta property="og:description" content="リモートアクセスしたい！">
 <meta property="og:image" content="https://itsukiarakaki268.github.io/img/pengin_avatar-icon.png" />
 <meta property="og:url" content="https://itsukiarakaki268.github.io/post/server-ssh/" />
 <meta property="og:type" content="website" />
 <meta property="og:site_name" content="1% Engineer" />
 
   <meta name="twitter:title" content="自宅サーバーをsshでリモートアクセスできるようにした話" />
-  <meta name="twitter:description" content="自宅サーバーを遠隔操作！">
+  <meta name="twitter:description" content="リモートアクセスしたい！">
   <meta name="twitter:image" content="https://itsukiarakaki268.github.io/img/pengin_avatar-icon.png" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@username" />
@@ -249,7 +249,7 @@
     &nbsp;|&nbsp;<i class="fas fa-clock"></i>&nbsp;1&nbsp;minutes
   
   
-    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;106&nbsp;words
+    &nbsp;|&nbsp;<i class="fas fa-book"></i>&nbsp;107&nbsp;words
   
   
     
@@ -275,7 +275,7 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
       <article role="main" class="blog-post">
-        <p>自宅サーバーを遠隔操作！</p>
+        <p>リモートアクセスしたい！</p>
 <h2 id="事の発端">事の発端</h2>
 <p>以前から、GUI の ubuntu を導入している pc をサーバーがわりに使用していたのですが、何気なく CUI の ubuntu-server を構築したいと思い立ったのが始まりでした。</p>
 <h2 id="server-環境の構築">server 環境の構築</h2>
@@ -295,7 +295,7 @@ ubuntu-server の ISO ファイルを入れた USB メモリからブートに�
 </span></span><span class="line"><span class="cl">      nameservers:
 </span></span><span class="line"><span class="cl">        addresses: [DNSアドレス]
 </span></span></code></pre></div><p>今回は IP アドレスを固定するため、<code>dhcp4</code>と<code>dhcp6</code>は false に、残りのアドレスは適宜設定していきます。
-この時、<code>yamlファイル</code>の書き込み権限を付与するのを忘れて 2~3 回 vim で入力し直しました。（あほ）</p>
+この時、<code>yamlファイル</code>の書き込み権限を付与するのを忘れて 2~3 回 vim で入力し直しました。泣</p>
 <h2 id="ssh-の設定">ssh の設定</h2>
 <p>IP アドレスの固定ができたので、次は ssh の設定をしていきます。
 OS インストールの際に ssh はインストール済みなので、早速鍵を作っていきます。</p>
@@ -305,7 +305,7 @@ OS インストールの際に ssh はインストール済みなので、早速
 <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$ sudo chmod 600 ~/.ssh/秘密鍵の名前(今回の場合id_rsa)
 </span></span></code></pre></div><p>上記のコマンドでパーミッションを適切に設定し、サーバーに ssh 接続することに成功しました。</p>
 <h2 id="今後の展望">今後の展望</h2>
-<p>今回は ssh の config にプライベート IP アドレスを設定し ssh 接続を行なったため、自宅 LAN 内でしか ssh できない状態になっています。今後は外出先で自宅サーバーに ssh できるようにしたいので、グローバル IP アドレスやポートフォワーディングなどの知識を深めて再挑戦したいと思います。☺️</p>
+<p>今回は ssh の config にプライベート IP アドレスを設定し ssh 接続を行なったため、自宅 LAN 内でしか ssh できない状態になっています。今後は外出先で自宅サーバーに ssh できるようにしたいので、グローバル IP アドレスやポートフォワーディングなどの知識を深めて再挑戦したいと思います ☺️</p>
 
         
           <div class="blog-tags">
